@@ -4,20 +4,55 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Players Details</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap"
+      rel="stylesheet"
+    />
+
     <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              swash: ["Berkshire Swash"],
+            },
+          },
+        },
+      };
+    </script>
   </head>
-  <body>
-    <header class="text-center  ">
-      <div>
-        <div class="">
-          <h2 class="text-5xl mt-[121px] font-ita">Select Your Top Best Five</h2>
-          <p class="w-[735px] h-[90px] text-center">
+  <body class="bg-gray-500">
+    <header class="bg-black h-[513px]">
+      <img
+        class="ml-[1195px] mr-4 absolute pt-24"
+        src="img2/photo_2022-05-02_10-07-10.png"
+        alt=""
+      />
+      <img class="ml-[1170px] mr-4 absolute pt-20" src="img2/psg.png" alt="" />
+      <div class="">
+        <div class="text-center pt-36">
+          <h1 class="font-swash text-6xl text-orange-600">
+            Select Your Top Best Five
+          </h1>
+          <img
+            class="right-72 mt-4 absolute"
+            src="img2/Line Marker.svg"
+            alt=""
+          />
+
+          <p class="text-white mt-[50px] px-64">
             Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
-            sint. Velit officia consequat duis enim velit mollit. Exercitation
-            veniam consequat sunt nostrud amet.
+            sint. Velit <br />officia consequat duis enim velit mollit.
+            Exercitation veniam consequat sunt <br />
+            nostrud amet.
           </p>
         </div>
       </div>
+      <img class="absolute bottom-36" src="img2/image 27.png" alt="" />
     </header>
   </body>
 </html>
